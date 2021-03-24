@@ -1,0 +1,58 @@
+body{
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-size: 14px;
+}
+img{
+	width: 100%;
+}
+.bg{
+	background: #000;
+	width: 680px;
+	height: 680px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.desk{
+	width: 640px;
+	margin: 0 auto;
+}
+.cell{
+	width: 80px;
+	height: 80px;
+}
+.white{
+	background: #fff;
+}
+.black{
+	background: #000;
+}
+.row{
+	display: flex;
+	text-align: center;
+}
+.gor{
+	width: 80px;
+	height: 15px;
+	background: grey;
+}
+.flip{
+	-webkit-transform: rotate(-180deg); /*Chrome, Safari*/
+	-moz-transform: rotate(-180deg); /*Firefox*/
+	-o-transform: rotate(-180deg); /*Opera*/
+	-ms-transform: rotate(-180deg); /*IE*/
+	transform: rotate(-180deg); /*браузеры без префексов*/
+}
+.ver{
+	width: 15px;
+	height: 80px;
+	background: grey;
+	display: flex;
+	align-items: center
+}
+
+.min{
+	width: 15px;
+	height: 15px;
+}
